@@ -1,0 +1,18 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+    ifstream CorregirCodigo; //Que clase de la libreria es la correcta
+    CorregirCodigo.open("Archivo4.txt"); // Que falta dentro del parentesis
+    if(CorregirCodigo.is_open()){
+            CorregirCodigo << "Hola mundo soy un archivo" << endl;
+    }
+
+    //Que falta despues de escribir el archivo
+
+    return 0;
+}
